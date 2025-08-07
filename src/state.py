@@ -1,4 +1,3 @@
-from langgraph.graph import StateGraph
-from src.types import StateSchema
+from langgraph.graph import StateGraph, MessagesState
 
-workflow = StateGraph(StateSchema)
+workflow = StateGraph(MessagesState)
